@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    font-family: 'Lora', sans-serif;
+    background-color: #f1f1f1;
+    color: #141619;
+}
+nav{
+    margin: 45px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    font-weight: 400;
+    text-decoration: none;
+    padding: 20px;
+    color: #141619;
+}
+nav div{
+    display: flex;
+}
+.btn{
+    display: flex;
+    background-color: #141619;
+    color: #f1f1f1;
+    border-radius: 2px;
+    height: 5px;
+}
