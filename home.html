@@ -10,17 +10,22 @@
     </head>
     <body>
         <!--navigation bar-->
-        <nav>
-            <h4>lounge.well</h4>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#service">Service</a>
-            <a href="#contact">Contact</a>
-            <div class = "user">
-                <a href="#">Log In</a>
-                <a href="#" class = "btn">Sign up</a>
-            </div>
-        </nav>
+        <div class="header">
+            <div class="left-section"><h3>Lounge.well</h3></div>
+            <div class="middle-section">
+              <a class="hd-link" href="#home">Home</a>
+              <a class="hd-link" href="#about">About</a>
+              <a class="hd-link" href="#service">Service</a>
+              <a class="hd-link" href="#contact">Contact</a></div>
+            <div class="right-section">
+              <button class="log-in">Log In</button>
+              <button class="sign-up">Sign up</button></div>
+        </div>
+        <div class="left-sidebar">
+              <a href="#" class="lsb-link">Twitter</a>
+              <a href="#" class="lsb-link">Instagram</a>
+              <a href="#" class="lsb-link">Facebook</a>
+        </div>
         <!--header-->
         <header id = "home">
             <div class = "text">
@@ -56,9 +61,14 @@
                     Need some help?<br> Contact us and we will help you!
                 </p>
             </div>
+            <div class = "form">
+                <form>
+                    <label for = "name" id = "name-label">Name</label>
+                </form>
+            </div>
         </section>
         <footer>
-            <h4>lounge.well</h4>
+            <h4>Lounge.well</h4>
             <ul>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">FAQ</a></li>
