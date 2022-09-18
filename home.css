@@ -6,6 +6,74 @@ body{
     color: #141619;
     margin: 0;
 }
+.header{
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  right: 72px;left: 72px;
+  z-index: 100;
+}
+.left-section{
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  width: 80px;
+  padding-top: 7px; padding-bottom: 7px;
+
+}
+.middle-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 20px;
+  align-items: center;
+  width: 610px;
+  
+  left:20px;
+  padding-top: 7px; padding-bottom: 7px;
+}
+.right-section{
+  margin-left: 300px;
+  
+  width: 288px;
+}
+.log-in,.sign-up{
+  border-style: none;
+  padding-left: 30px; padding-right: 30px;
+  padding-top: 12px; padding-bottom: 12px;
+  background-color: white;
+}
+.sign-up{
+  background-color: black;
+  color: white;
+}
+.left-sidebar{
+  position: fixed;
+  left: 0;
+  top: 0; bottom: 0;
+  padding-top: 10px;
+  padding-left: 10px; padding-right: 10px;
+}
+.lsb-link{
+  display: flex;
+  margin-top: 100px;
+  width: 50px;
+  justify-content: center;
+  height: 25px;
+  align-items: center;
+  flex-direction: column;
+  transform: rotate(-90deg);
+  text-decoration: none;
+  color: black;
+}
+.hd-link{
+  text-decoration: none;
+  color: black;
+}
 button{
     display: inline-block;
     border: none;
@@ -65,30 +133,9 @@ header img{
     opacity: 0.7;
     height: 100vh;
 }
-nav{
-    margin: 45px;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-}
-nav a{
-    font-weight: 400;
-    text-decoration: none;
-    padding: 20px;
-    color: #141619;
-}
-nav div{
-    display: flex;
-}
+
 section{
     margin: 60px;
-}
-.btn{
-    display: flex;
-    background-color: #141619;
-    color: #f1f1f1;
-    border-radius: 2px;
-    height: 5px;
 }
 .btn1{
     background-color: #141619;
