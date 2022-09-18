@@ -24,7 +24,7 @@ footer{
     display: flex;
     justify-content: space-between;
     padding : 40px;
-    margin:0;
+    margin:0px 100px 0px 100px;
 }
 footer h4{
     display: flex;
@@ -50,7 +50,7 @@ header{
     align-items: center;
     justify-content: space-between;
     height: 100vh;
-    margin: 60px;
+    margin: 100px 100px 60px 100px;
     padding-left: 80px;
 }
 #text{
@@ -65,21 +65,7 @@ header img{
     opacity: 0.7;
     height: 100vh;
 }
-nav{
-    margin: 45px;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-}
-nav a{
-    font-weight: 400;
-    text-decoration: none;
-    padding: 20px;
-    color: #141619;
-}
-nav div{
-    display: flex;
-}
+
 section{
     margin: 60px;
 }
@@ -103,7 +89,7 @@ section{
     border-bottom-right-radius: 2px;
 }
 #about{
-
+    margin: 60px 100px 60px 100px;
 }
 #service{
 
@@ -122,7 +108,7 @@ section{
     justify-content: center;
     height: 100vh;
     position: relative;
-    margin: 0;
+    margin: 0px 100px 0px 100px;
 }
 #contact::after{
     content:'';
@@ -134,3 +120,79 @@ section{
     bottom: 0;
     opacity: 0.7;
 }
+/*edit*/
+.header{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0px;left: 72px;
+    z-index: 100;
+    background-color: #f1f1f1;
+  }
+  .left-section{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    width: 80px;
+    padding-top: 7px; padding-bottom: 7px;
+  
+  }
+  .middle-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 20px;
+    align-items: center;
+    width: 610px;
+    left:20px;
+    padding-top: 7px; padding-bottom: 7px;
+  }
+  .right-section{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    width: 288px;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .log-in,.sign-up{
+    border-style: none;
+    padding-left: 17px; padding-right: 17px;
+    padding-top: 10px; padding-bottom: 10px;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+  }
+  .sign-up{
+    background-color: #141619;
+    color: #f1f1f1;
+  }
+  .left-sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: 10px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    background-color: #f1f1f1;
+  }
+  .lsb-link{
+    display: flex;
+    margin-top: 100px;
+    width: 50px;
+    justify-content: center;
+    height: 25px;
+    align-items: center;
+    flex-direction: column;
+    transform: rotate(-90deg);
+    text-decoration: none;
+    color: black;
+  }
+  .hd-link{
+    text-decoration: none;
+    color: black;
+  }
